@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   margin-top: 50px;
+  color: whitesmoke;
 }
 
 .status {
@@ -26,24 +27,34 @@
   border: 2px solid #333;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  background-color: whitesmoke;
+  color: black
 }
 
 .square:hover {
-  background-color: #eee;
+  background-color: aquamarine;
 }
 
+.square:active {
+  background-color: black;
+}
 .reset {
   font-size: 16px;
   margin-top: 20px;
   padding: 10px 20px;
   cursor: pointer;
-  background-color: #4caf50;
+  background-color: whitesmoke;
   color: #fff;
   border: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
+  color:black;
 }
 
 .reset:hover {
-  background-color: #45a049;
+  background-color: aquamarine;
+}
+
+body {
+background-color: black;
 }
