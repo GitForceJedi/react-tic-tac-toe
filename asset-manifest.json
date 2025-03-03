@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/react-tic-tac-toe/static/css/main.cb4b7fee.css",
-    "main.js": "/react-tic-tac-toe/static/js/main.d0915623.js",
+    "main.css": "/react-tic-tac-toe/static/css/main.2c373b51.css",
+    "main.js": "/react-tic-tac-toe/static/js/main.77501000.js",
     "static/js/453.70f66972.chunk.js": "/react-tic-tac-toe/static/js/453.70f66972.chunk.js",
+    "static/media/purple-wave.jpg": "/react-tic-tac-toe/static/media/purple-wave.390f57927fcd722b2ea1.jpg",
     "index.html": "/react-tic-tac-toe/index.html",
-    "main.cb4b7fee.css.map": "/react-tic-tac-toe/static/css/main.cb4b7fee.css.map",
-    "main.d0915623.js.map": "/react-tic-tac-toe/static/js/main.d0915623.js.map",
+    "main.2c373b51.css.map": "/react-tic-tac-toe/static/css/main.2c373b51.css.map",
+    "main.77501000.js.map": "/react-tic-tac-toe/static/js/main.77501000.js.map",
     "453.70f66972.chunk.js.map": "/react-tic-tac-toe/static/js/453.70f66972.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb4b7fee.css",
-    "static/js/main.d0915623.js"
+    "static/css/main.2c373b51.css",
+    "static/js/main.77501000.js"
   ]
 }
