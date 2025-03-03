@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import GreetingPopup from './GreetingsPopUp';
 
 const calculateWinner = (squares) => {
   const lines = [
@@ -51,6 +52,8 @@ const App = () => {
 
   return (
     <div className="App">
+      <div>
+      <GreetingPopup /></div>
       <div className="status"><b>{status}</b></div>
       <div className="board">
         {squares.map((value, index) => (

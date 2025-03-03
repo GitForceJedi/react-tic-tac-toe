@@ -31,7 +31,7 @@
   transition: background-color 0.3s ease;
   background-color: whitesmoke;
   color: black
-}
+} 
 
 .square:hover {
   background-color: lightskyblue;
@@ -63,4 +63,70 @@ background-image: url("purple-wave.jpg");
 background-size: contain;
 background-repeat: no-repeat;
 background-size: 100%; /* Fills the container completely */ 
+}
+
+
+/* GreetingPopup.css */
+
+/* Popup container to cover the entire screen */
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw; /* Use the entire viewport width */
+  height: 100vh; /* Full height of the viewport */
+  background-color: rgba(0, 0, 0, 0.3); /* Dark background with opacity */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure the popup is on top of other elements */
+  animation: fadeIn 0.5s; /* Fade-in effect */
+  padding-left: 30px; /* Left padding */
+  padding-right: 30px; /* Right padding */
+  box-sizing: border-box; /* Include padding within the width calculation */
+}
+
+/* Popup box */
+.popup {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  animation: fadeIn 0.5s; /* Fade-in effect */
+  padding: 50px;
+  width: 100%; /* Let the width of the popup take up the remaining space */
+  max-width: 500px; /* Limit the maximum width for large screens */
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+/* Text inside the popup */
+.greeting-text {
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  margin: 0; /* Ensures there is no margin */
+  padding: 0; /* Ensures there is no padding */
+}
+
+/* Close button */
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
