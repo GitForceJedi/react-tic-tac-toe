@@ -30,7 +30,7 @@ const App = () => {
     ? `Winner: ${winner}`
     : squares.every((square) => square) // Check if all squares are filled
     ? 'Tie'
-    : `Next player: ${xIsNext ? 'X' : 'O'}`;
+    : `Player Turn: ${xIsNext ? 'X' : 'O'}`;
 
   const handleClick = (i) => {
     if (squares[i] || winner) {
@@ -51,7 +51,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <div className="status">{status}</div>
+      <div className="status"><b>{status}</b></div>
       <div className="board">
         {squares.map((value, index) => (
           <div

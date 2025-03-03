@@ -2,6 +2,7 @@
   text-align: center;
   margin-top: 50px;
   color: whitesmoke;
+  padding-top: 60px;
 }
 
 .status {
@@ -11,14 +12,15 @@
 
 .board {
   display: grid;
-  grid-template-columns: repeat(3, 100px);
+  grid-template-columns: repeat(3, 200px);
   grid-gap: 5px;
   justify-content: center;
+  padding-top: 30px;
 }
 
 .square {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,7 +34,7 @@
 }
 
 .square:hover {
-  background-color: aquamarine;
+  background-color: lightskyblue;
 }
 
 .square:active {
@@ -40,7 +42,7 @@
 }
 .reset {
   font-size: 16px;
-  margin-top: 20px;
+  margin-top: 30px;
   padding: 10px 20px;
   cursor: pointer;
   background-color: whitesmoke;
@@ -52,9 +54,13 @@
 }
 
 .reset:hover {
-  background-color: aquamarine;
+  background-color: lightskyblue;
 }
 
 body {
 background-color: black;
+background-image: url("purple-wave.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+background-size: 100%; /* Fills the container completely */ 
 }
